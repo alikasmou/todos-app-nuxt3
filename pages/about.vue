@@ -1,7 +1,7 @@
 <template>
 <div>
-    index page
-    <NuxtLink to="/about">about us</NuxtLink>
+    about page
+    <NuxtLink to="/">Index page</NuxtLink>
 </div>
 </template>
 
