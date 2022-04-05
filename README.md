@@ -9,3 +9,7 @@
 --> tailwindcss
 
 
+## RUN THE APP:
+    1-  Install docker
+    2-  execute : docker build -t todos-app-nuxt3 .
+    3-  execute : docker run --name todosApp -p 5000:5000 todos-app-nuxt3
