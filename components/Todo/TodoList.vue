@@ -9,6 +9,7 @@
 <script lang="ts">
 import { defineComponent, PropType } from "vue"
 import ITodo from "~~/types/ITodo"
+
 export default defineComponent({
     setup() {
         
@@ -18,6 +19,7 @@ export default defineComponent({
             required: true,
             type: Array as PropType<ITodo[]>
         }
-    }
+    },
+    components:{}
 })
 </script>
